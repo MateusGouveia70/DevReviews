@@ -21,5 +21,7 @@ namespace DevReviews.API.Entities
         public string Comments { get; private set; }
         public int ProductId { get; private set; }
         public DateTime CreateAt { get; private set; }
+        public Product Product { get; set; } // Propriedade de navegação
+
     }
 }
